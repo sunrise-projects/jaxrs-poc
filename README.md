@@ -18,8 +18,9 @@ git add *
 git commit -m "init"
 git push
 
-
 * http://rogerdudler.github.io/git-guide/
+
+```
 
 git add <filename>
 git add *
@@ -34,7 +35,6 @@ git remote add origin <server>
 to update your local repository to the newest commit, execute 
 git pull
 
---------
 
 update & merge
 to update your local repository to the newest commit, execute 
@@ -46,3 +46,5 @@ in both cases git tries to auto-merge changes. Unfortunately, this is not always
 git add <filename>
 before merging changes, you can also preview them by using
 git diff <source_branch> <target_branch>
+
+```
